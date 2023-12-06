@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  font-family: 'TT Hoves';
+  color: #222;
+}
+
+section {
+    padding: 0 calc(10.6vw - 15.779px);
+    max-width: 1920px;
+    margin: 0 auto calc(1.1vw + 18.564px);
+}
+
+.first-page{
+    position: relative;
+}
+#bg-image {
+    position: absolute;
+    top: 120px;
+    right: 60px;
+    z-index: -1;
+    width: 395px;
+}
+@media (max-width: 1000px){
+
+   #bg-image {
+     width: 180px;
+   }
+}
+#logo {
+    margin-top: 35px;
+    width: 295px;
+    margin-bottom: 85px;
+}
+h1 {
+    font-family:"Chava";
+
+    font-size: calc(4.2vw + 26.254px);
+    line-height: 110%; /* 88px */
+    margin-bottom: 40px;
+}
+h2{
+    font-weight: 500px;
+    font-size: calc(2.7vw + 24.055px);
+    line-height: 117%;
+    text-transform: uppercase;
+}
+h3{
+    font-size: calc(1vw + 14.271px);
+    font-weight: 600;
+    line-height: 140%; /*37.8px */
+    text-transform: uppercase;
+}
+h5 {
+    font-size: calc(1vw + 14.271px);
+    font-weight: 600;
+    line-height: 140%; /*37.8px */
+    text-transform: uppercase; 
+}
+p {
+    font-size: calc(1vw + 14.271px);
+    font-weight: 300;
+    line-height: 140%; /* 37.8px */
+    
+}
+.course-data {
+    display: flex;
+    gap: calc(17.7vw - 66.298px);
+    margin-bottom: 75px;
+}
+@media (max-width:750px){
+    .course-data {
+        flex-direction: column;
+    }
+}
+.course-data__desc {
+    margin-bottom: 5px;
+}
+.course-date {
+    font-weight: bold;
+}
+.course-description {
+  margin-bottom: 30px;
+}
+.buttons-wrapper {
+    display: flex;
+    gap: 30px;
+}
+@media (max-width:850px){
+    .buttons-wrapper {
+        flex-direction: column;
+    }
+}
+button {
+    width: 328px;
+    border-radius: 12px;
+    background: white;
+    padding: 20px 0;
+    color: #6E3ABA;
+    font-family: inherit;
+    font-size: inherit;
+    border: 1px solid #6E3ABA;
+}
+.primary-button {
+    width: 328px;
+    border-radius: 12px;
+    background: #6E3ABA;
+    padding: 20px 0;
+    color: white;
+    font-family: inherit;
+    font-size: inherit;
+    border: 0; 
+}
+.student h2 {
+    margin-bottom: calc(5.5vw + 19.282px);
+}
+
+.duration-details {
+    display: flex;
+    gap: 120px;
+}
+.duration-item {
+    flex-basis: 50%;
+}
+.duration h2 {
+    margin-bottom: calc(7.7vw - 9px);
+}
+.duration-details {
+    margin-bottom: calc(2.4vw + 20.884px);
+}
+.duration-details:last-child {
+    margin-bottom: 0;
+}
+.duration-details h3{
+    margin-bottom: 20px;
+}
+.duration-details h5{
+    margin-bottom: 20px;
+}
+.duration-item img{
+    width: calc(4.5vw + 184.761px);
+}
+@media (max-width: 950px) {
+    .duration-details {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+.timerSection {
+    margin: 0 auto calc(1.1vw + 18.564px);
+    padding: 0;
+}
+.bgPrimary {
+    background-color: #6E3ABA;
+    text-align: center;
+    padding: 80px 0;
+}
+.bgPrimary h2 {
+    color: #FFF;
+    font-size: calc(2vw + 26.541px);
+    font-weight: 700;
+    letter-spacing: 1.56px;
+    text-transform: uppercase;
+    margin-bottom: 57px;
+}
+.timerContainer{
+    display: flex;
+    justify-content: center;
+    gap: 85px;
+}
+@media (max-width: 950px) {
+    .timerContainer {
+        gap: 32px;
+    }
+}
+.timerCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 57px;
+}
+.timerCard h3{
+  color: #2F1D4E;
+  font-family: 'Chava';
+  font-size: calc(12.6vw + 12.762px);
+  line-height: 107.5%;
+}
+.timerCard p{
+    color: #2F1D4E;
+    text-align: center;
+    font-size: calc(1.9 + 2.956px);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.money h2 {
+    margin-bottom: calc(2.2vw + 11.713px);
+}
+.money p{
+    margin-bottom: calc(1.8vw + 13.37px)
+
+}
+.money img{
+    width: calc(81.4vw + 22.613px) ;
+}
+.box{
+    display: flex;
+}
+.gift h2 {
+    margin-bottom: calc(1.1vw + 15.856px) ;
+}
+.partner p {
+    margin-bottom: calc(0.6vw + 17.928px);
+    font-weight: 400;
+    line-height: 140%; /* 29.4px */     
+}
+.partner p:last-child {
+    margin-bottom: 0;
+}
+.partner p:first-child{
+    margin-top: calc(4.4vw + 3.425px);
+}
+@media (max-width: 950px){
+    .box {
+        flex-direction: column;
+    }
+} 
+
+.legend {
+    display: flex;
+    gap: 20px 50px;
+    flex-wrap: wrap;
+
+    margin-top: calc(5.5vw + 19px);
+}
+
+.legendPhoto {
+    flex-basis: 400px;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.legendInfo {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+.legendInfo h3 {
+    font-size: calc(1.1vw + 34px);
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: capitalize;
+    margin-bottom: calc(1.1vw + 6px);
+}
+.achievments {
+    margin-top: calc(5.5vw + 19px);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: calc(1.1vw + 26px);
+    column-gap: calc(11.3vw - 33px);
+}
+.achievments p{
+    font-size: calc(0.6vw + 14px);
+    line-height: 140%;
+}
+ 
+.lesson {
+    position: relative;
+    border: 3px solid black;
+    display: flex; 
+    flex-wrap: wrap;   
+}
+#cube{
+    position:absolute;
+    top: -3px;
+    right: -3px;
+    width: 100px;
+
+}
+@media (max-width: 850px){
+
+    #cube {
+      width: 30px;
+    }
+ }
+.lesson h2{
+    margin-top: calc(4.4vw + 23.425px);
+    margin-left: calc(4.9vw + 1.768px);
+    margin-bottom: calc(1.8vw + 17.37px);
+    font-weight: 500;
+    font-size: calc(2.7vw + 24.055px);  
+}
+.number{
+    padding-left: calc(4.9vw + 1.061px);
+    padding-right: calc(2.6vw + 18.762px);
+}
+.number p{
+    padding: 24px 0;
+}
+.number p:first-child{
+    padding-top: 0;
+}
+.btn{
+    margin-bottom: 35px;
+    width: 424px;
+    margin: 34px auto;
+}
+.btm{
+    display: none;
+    margin-top: 30px;
+    width: 328px;
+    margin: 34px auto;
+}
+@media (max-width: 510px){
+     .btn{
+        display: none;
+     }
+     .btm {
+        display: block;
+     }
+}
+hr {
+    display: block;
+    width: calc(73.9vw + 2.79px);
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+.diplom {
+    display: grid;
+    grid-template-areas: "a b"
+                         "a c";
+
+    gap: 20px;
+}
+.diplom img{
+    grid-area: a;
+}
+.diplom h3{
+    grid-area: b;
+    font-size: calc(2.7vw + 24.055px);
+    font-weight: 500;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;
+}
+.diplom p {
+    grid-area: c;
+    font-size: calc(1vw + 14.271px);
+    line-height: 140%; /* 37.8px */
+}
+
+@media (max-width: 1050px){
+    .diplom {
+        grid-template-areas: "b"
+                             "a"
+                             "c";
+    }
+}
+.diplom img {
+    margin: 20px 0;
+}
+.report{
+    display: flex;
+    gap: 30px;
+}
+.studentInfo {
+    width: 335px;
+    border-radius: 12px;
+    background-color: #F0F7FD;
+}
+#youtube{
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+}
+.studentInfo p {
+    padding: 0 20px;
+    padding-bottom: 40px;
+    font-size: 21px;
+    line-height: 140%; /* 29.4px */
+}
+.studentbox h2{
+  margin-bottom: calc(2.2vw + 11.713px);
+}
+.studentFoto {
+    display: flex;
+    gap: 16px;
+}
+.studentFoto img{
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 75.981px;
+    height: 80px;
+
+}
+
+
+
+
+
+
+
