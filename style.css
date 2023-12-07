@@ -394,10 +394,57 @@ hr {
     border-radius: 50%;
     width: 75.981px;
     height: 80px;
-
 }
 
-
+footer{
+    padding: 0 120px 0 91px;
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+}
+.footerLeft {
+    width: 50%;
+}
+.footerLeft h2{
+    color: #fff;
+    font-size: 58px;
+    font-weight: 500;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;
+    max-width: 424px;
+}
+.footerSkilsContainer{
+    color: #FFF;
+    display: flex;
+    gap: 20px;
+}
+.footerRight{
+    width: 50%;
+}
+.footerRightContainer {
+    width: 475px;
+    border: 12px;
+    padding: 60px;
+    background-color: #fff;
+    position: relative;
+}
+.sale {
+    width: 160px;
+    height: 160px;
+    background-color: #6E3ABA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    left: -80px;
+    top: -80px;
+}
+.sale h5{
+    font-size: 63px;
+    font-weight: 700px;
+    color: #fff;
+}
 
 
 
