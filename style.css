@@ -396,8 +396,101 @@ hr {
     height: 80px;
 }
 
-
-
-
-
+footer {
+    background-color: #222;
+    padding: 0 calc(10.6vw - 15.779px);
+    max-width: 1920px;
+    margin: 0 auto calc(1.1vw + 18.564px);
+    display: flex;
+}
+.footer_left {
+    width: 50%;
+}
+.footer_left h2{
+    color: #FFF;
+    font-size: calc(2.7vw + 24.018px);
+    font-weight: 500;
+    max-width: 424px;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;
+    padding: calc(4.4vw + 23.363px) 0px;
+}
+.footer_skils {
+    display: flex;
+    gap: 20px;
+    padding-bottom: calc(0.4vw + 18.336px);
+}
+.footer_skils p {
+    color:  #FFF;
+    font-size: calc(0.1vw + 14.257px);
+    line-height: 140%; /* 37.8px */
+    text-transform: uppercase;
+}
+.footer_right {
+    width: 50%;
+    margin-top: 100px;
+}
+.form_container {
+    width: calc(16.2vw + 267px);
+    background-color: #FFF;
+    padding: 55px 69px;
+    border-radius: 12px;
+    position: relative;
+}
+ .sale {
+    color: #FFF;
+    background-color: #6E3ABA;
+    width: 160px;
+    height: 160px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 63px;
+    font-weight: 700;
+    border-radius: 50%;
+    position: absolute;
+    top: -80px;
+    left: -80px;
+} 
+.form_container h3 {
+    text-align: center;
+    font-size: clac(0.4vw + 24.336px);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.form_container p{
+  font-size: calc(0.6vw + 13.92px);
+  margin-bottom: 30px;
+  text-align: center;
+}
+.footer_form input{
+    display: block;
+    width: 100%;
+    height: 34px;
+    margin-bottom: 23px;
+    border: none;
+    border-bottom: 1px solid rgba(161, 161, 161, 0.42);
+}
+.footer_form .primary-button{
+    display: block;
+    margin: 7px auto 41px;
+}
+.form_container p:nth-of-type(2){
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(59, 59, 59, 0.42);
+}
+.form_container p:nth-last-child(){
+    color: rgba(59, 59, 59, 0.42);
+    font-style: 18px;
+    text-align: center;
+}
+@media (max-width:1280px){
+    footer{
+        flex-direction: column;
+        align-items:center;
+        gap: 70px;
+    }
+}
 
